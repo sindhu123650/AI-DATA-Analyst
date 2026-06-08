@@ -110,6 +110,28 @@ streamlit run app.py
 
 ---
 
+### Architecture Diagram 
+
+User
+ │
+ ▼
+Streamlit UI
+ │
+ ▼
+LangChain SQL Agent
+ │
+ ▼
+Groq LLM
+ │
+ ▼
+SQLite Database
+ │
+ ▼
+Query Results
+ │
+ ▼
+Streamlit Dashboard
+
 ## 🎯 Sample Questions
 
 - What is the average salary?
